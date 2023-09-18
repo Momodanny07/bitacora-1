@@ -1,138 +1,43 @@
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 20px;
-    background-color: rgb(160, 83, 168);
-  }
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f2f2f2;
+ }
 
-  .header {
-    text-align: center;
-    background-color: rgb(162, 6, 165);
-    width: 100%;
-    height: flex;
-    border-radius: 50px;
-  }
+ header {
+  background-color: #ff0e0e81;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+ }
 
-  .name { 
-    font-size: 15px;
-    font-weight:bolder;
-    font-family:'Courier New', Courier, monospace;
-    margin-bottom: 30px;
-  }
+ h1 {
+  margin: 0;
+ }
 
-  .contact {
-    font-size: 16px;
-    margin-bottom: 20px;
-    font-family: 'Times New Roman', Times, serif;
-  }
+ .menu {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+ }
 
-  .section {
-    margin-top: 20px;
-  }
+ .menu-item {
+  background-color: #545151be;
+  border: 1px solid #fa0000b9;
+  border-radius: 5px;
+  padding: 20px;
+  width: 300px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+ }
 
-  .section h2 {
-    font-size: 20px;
-    margin-bottom: 10px;
-  }
+ .menu-item img {
+  max-width: 100%;
+  height: auto;
+ }
 
-  .section p {
-    font-size: 16px;
-  }
-
-  .p img{
-    height: 50px;
-    width: 50px;
-    text-align: left;
-  }
-
-  .section1{
-    float: left;
-    height: 300px;
-    width: 600px;
-    background-color: rgba(255, 255, 255, 0.31);
-    text-align: center;
-    border-radius: 50px;
-  }
-
-  .section1 p{
-    padding-top: 20px;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-bottom: 20px;
-  }
-  .section2 p{
-    padding-top: 20px;
-    padding-left: 50px;
-    padding-right: 50px;
-    padding-bottom: 20px;
-  }
-  .section3 p{
-    padding-top: 20px;
-    padding-left: 50px;
-    padding-right: 50px;
-  }
-  .section4 p{
-    padding-top: 20px;
-    padding-left: 50px;
-    padding-right: 50px;
-  }
-  .section5 p{
-    padding-top: 20px;
-    padding-left: 50px;
-    padding-right: 50px;
-  }
-  .section6 p{
-    padding-top: 20px;
-    padding-left: 50px;
-    padding-right: 50px;
-  }
-
-  .section2{
-    float: right;
-    height: 350px;
-    width: 600px;
-    background-color: rgba(81, 7, 110, 0.33);
-    text-align: center;
-    border-radius: 50px;
-  }
-
-  .section3{
-    float: left;
-    height: 300px;
-    width: 600px;
-    background-color: rgba(81, 7, 110, 0.33);
-    text-align: center;
-    border-radius: 50px;
-  }
-
-  .section4{
-    float: right;
-    height: 420px;
-    width: 600px;
-    background-color: rgba(255, 255, 255, 0.31);
-    text-align: center;
-    border-radius: 50px;
-  }
-
-  .section5{
-    float: left;
-    height: 380px;
-    width: 600px;
-    background-color: rgba(255, 255, 255, 0.31);
-    text-align: center;
-    border-radius: 50px;
-  }
-
-  .section6{
-    float: right;
-    height: 250px;
-    width: 600px;
-    background-color: rgba(81, 7, 110, 0.33);
-    text-align: center;
-    border-radius: 50px;
-  }
-
-  .sections ul{
-    list-style-type: none;
-  }
-  
+ .div img{
+  align-items: left;
+ }
